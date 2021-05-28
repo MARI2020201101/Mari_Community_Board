@@ -21,7 +21,7 @@
                         <tbody>
 
                         <tr th:each="dto : ${list.dtoList}"  >
-                            <th scope="row">[[${dto.bno}]]</th>
+                            <th scope="row"><a th:href="@{/board/read(page=${list.page},bno=${dto.bno})}">[[${dto.bno}]]</a></th>
                             <td >[[${dto.title}]]</td>
                             <td >[[${dto.name}]]</td>
                             <td >[[${#temporals.format(dto.regDate, 'yyyy/MM/dd')}]]</td>
@@ -55,7 +55,7 @@
                         <p>[[${msg}]]</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Ok</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                 </div>

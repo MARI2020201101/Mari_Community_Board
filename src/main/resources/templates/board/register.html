@@ -3,7 +3,7 @@
 <th:block th:replace="~{/fragment/layout::setContent(~{this::content})}">
     <th:block th:fragment="content">
         <h1>Register page</h1>
-        <form class="user" th:action="@{/board/register}" method="post">
+        <form th:action="@{/board/register}" method="post">
             <input th:type="hidden" name="page" th:value="${pageRequestDTO.page}">
             <div class="form-group row">
                 <label>Title</label>

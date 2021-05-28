@@ -21,4 +21,5 @@ public class BoardDTO {
     private String email;
     private String name;
     private LocalDateTime regDate;
+    private LocalDateTime modDate;
 }

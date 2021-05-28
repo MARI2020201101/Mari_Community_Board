@@ -48,4 +48,11 @@ public class BoardRepositoryTest {
 
         );
     }
+
+    @Test
+    public void readTest(){
+        Object result = boardRepository.getBoardWithMember(1L);
+        Object[] arr = (Object[])result;
+        Arrays.stream(arr).forEach(System.out::println);
+    }
 }
