@@ -9,3 +9,4 @@
 - 템플릿 (thymeleaf) 를 활용하여 레이아웃과 콘텐츠를 분리
 - BaseEntity, @EnableJpaAuditing 를 활용하여 중복코드 제거
 - gradle을 빌드 도구로서 사용, 보다 깔끔한 디펜던시 파일 설정
+- 인터페이스의 default 메소드를 활용하여 중복코드 제거
