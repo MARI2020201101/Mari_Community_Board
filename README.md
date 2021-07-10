@@ -12,6 +12,8 @@
 ***
 ## 신경 쓴 점
 - JPA를 활용하여 1 : n 연관관계 처리
+- View영역의 DTO클래스와 Database영역의 Entity클래스를 분리하여 이상현상 방지
+- Java8문법을 활용한 클린 코드 작성
 - jUnit을 이용하여 더미 데이터의 신속한 생성
 - 템플릿 (thymeleaf) 를 활용하여 레이아웃과 콘텐츠를 분리
 - BaseEntity, @EnableJpaAuditing 를 활용하여 중복코드 제거
