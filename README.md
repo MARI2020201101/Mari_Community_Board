@@ -1,4 +1,4 @@
-# Mari_Community_Board
+# :small_blue_diamond:Mari_Community_Board
 ## 기능
 - 게시글 조회, 등록, 수정, 삭제가 가능
 - 회원제 게시판
